@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color</title>
+</head>
+<body>
+    <link rel="stylesheet" href="color.css">
+<div class="main">
+    <div class="screen" id="scren">
+
+    </div><br>
+    <button onclick="color('red')">Red</button>
+    <button onclick="color('blue')">Blue</button>
+    <button onclick="color('yellow')">Yellow</button>
+    <button onclick="color('black')">Black</button><br><br>
+    <button onclick="color('violet')">Violet</button>
+    <button onclick="color('green')">Green</button>
+    <button onclick="color('orange')">Orange</button>
+    <button onclick="color('aqua')">Aqua</button>
+</div>
+    <script>
+        function color(colo){
+            document.getElementById("scren").style.background=colo
+
+        }
+    </script>
+
+
+</body>
+</html>
